@@ -1,0 +1,55 @@
+.Container{
+  background-color: rgb(240, 125, 84);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.div-wrapper{
+  width: 100%;
+  max-width: 25rem;
+  height: 80vh;
+  background-color: rgb(3, 56, 56);
+}
+
+.header{
+  color: #fff;
+  text-align: center;
+}
+form{
+  margin-top:  20px;
+  margin-left: 30px;
+}
+form > input{
+ padding: 12px;
+ border-radius: 8px;
+ background-color: black;
+ border: 1px solid rgb(146, 143, 143);
+ width: 60%;
+ color: white;
+ margin-bottom: 20px;
+}
+
+.button-add{
+  padding: 10px;
+ border-radius: 8px;
+ background-color: rgb(189, 91, 56);
+ border: 1px solid #000;
+ margin-left: 10px;
+}
+
+.todoItem > input{
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid rgb(146, 143, 143);
+  width: 60%;
+  margin: 5px 20px;
+  background-color: rgb(3, 56, 56);
+  color: #fff;
+
+}
+
+.todoItem > li{
+  list-style-type: none;
+} 
